@@ -46,7 +46,7 @@ h2{
     margin-left: auto;
 }
 
-#iniciar, #registrar{
+#iniciar, #registrar, #cerrar{
     background-color: #003B27;
     color: white;
     padding: 1%;
