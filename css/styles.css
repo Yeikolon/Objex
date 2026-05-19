@@ -141,3 +141,37 @@ footer{
 #paginas a{
     padding: 20px;
 }
+
+.contenedor-login{
+    display: flex;
+    justify-content: center;
+}
+
+.card-login{
+    background-color: white;
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+.card-login form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-login input{
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+.card-login button{
+    background-color: #003B27;
+    color: white;
+    padding: 12px;
+}
+
+select{
+    padding: 12px;
+    border: 1px solid #ccc;
+}
