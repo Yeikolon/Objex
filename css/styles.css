@@ -77,14 +77,14 @@ button{
 .perdido{
     padding: 1%;
     background-color: rgb(201, 76, 76);
-    color: black;
+    color: white;
     width: auto;
 }
 
 .encontrado{
     padding: 1%;
     background-color: #14e7a1;
-    color: black;
+    color: white;
     width: auto;
 }
 
@@ -124,9 +124,10 @@ footer{
 }
 
 .pie{
-    display: flex;
+    display: flexbox;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    text-align: center;
 }
 
 #aviso{
@@ -174,4 +175,10 @@ footer{
 select{
     padding: 12px;
     border: 1px solid #ccc;
+}
+
+footer{
+    text-align: center;
+    display: flexbox;
+
 }
