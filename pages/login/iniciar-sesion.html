@@ -2,61 +2,126 @@
 <html lang="es">
 
 <head>
-    <title>Objex- Publicaciones</title>
+
+    <title>Objex - Iniciar Sesión</title>
     <meta charset="UTF-8">
+
     <link href="../../css/styles.css" rel="stylesheet">
-    <link rel="icon" href="../../src/icons/lupa.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+
+    <link rel="icon"
+        href="../../src/icons/lupa.png"
+        type="image/x-icon">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
 
     <header>
+
         <nav>
+
             <fieldset class="navegacion">
+
                 <h1>Objex</h1>
-                <a href="../../index.html">INICIO</a>
-                <a href="../publicaciones/publicaciones.html">PUBLICACIONES</a>
+
+                <a href="../../index.html">
+                    INICIO
+                </a>
+
+                <a href="../publicaciones/publicaciones.html">
+                    PUBLICACIONES
+                </a>
+
             </fieldset>
 
         </nav>
+
     </header>
+
     <br>
 
     <main>
+
         <section class="contenedor-login">
+
             <section class="card-login">
+
                 <h2>Inicio de sesión</h2>
-                <p>Accede para publicar, contactar usuarios y gestionar tus objetos.</p>
 
-                <form method="get" action="../inicio/inicio-registrado.html">
+                <p>
+                    Accede para publicar, contactar usuarios
+                    y gestionar tus objetos.
+                </p>
 
-                    <label for="correo">Correo institucional</label>
-                    <input type="email" id="correo" name="correo" placeholder="ejemplo@espe.edu.ec">
+                <form method="post" action="../inicio/inicio-registrado.html">
 
-                    <label for="contrasena">Contraseña</label>
-                    <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña"
-                        minlength="8" maxlength="16">
+                    <label for="correo">
+                        Correo institucional
+                    </label>
 
-                    <button type="submit">Iniciar sesión</button>
+                    <input type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@espe.edu.ec">
+
+                    <label for="contrasena">
+                        Contraseña
+                    </label>
+
+                    <input type="password"
+                        id="contrasena"
+                        name="contrasena"
+                        placeholder="Ingrese su contraseña"
+                        minlength="8"
+                        maxlength="16">
+
+                    <button type="submit">
+                        Iniciar sesión
+                    </button>
 
                     <p class="registro-texto">
+
                         ¿No tienes cuenta?
-                        <a href="registrarse.html">Registrarse</a>
+
+                        <a href="registrarse.html">
+                            Registrarse
+                        </a>
+
                     </p>
 
                 </form>
+
             </section>
+
         </section>
+
     </main>
+
     <br>
 
     <footer>
+
         <section class="pie">
+
             <h3>Objex</h3>
-            <a id="aviso">Aviso de privacidad</a>
-            <a>Términos y condiciones</a>
-            <a>Soporte técnico</a>
+
+            <a id="aviso">
+                Aviso de privacidad
+            </a>
+
+            <a>
+                Términos y condiciones
+            </a>
+
+            <a>
+                Soporte técnico
+            </a>
+
         </section>
+
     </footer>
 
 </body>

@@ -5,101 +5,175 @@
     <meta charset="UTF-8">
     <title>Objex</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="src/icons/lupa.png" type="image/x-icon"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+    <link rel="icon" href="src/icons/lupa.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-    <nav>
-        <fieldset class="navegacion">
-            <h1>Objex</h1>
-            
-            <a style="text-decoration:underline;" href="index.html"> <i class="fa-solid fa-house"></i> Inicio</a>
-            
-            <a href="pages/publicaciones/publicaciones.html"> <i class="fa-solid fa-list"></i> Publicaciones</a>
-            <a class="login" id="iniciar" href="pages/login/iniciar-sesion.html">Iniciar Sesión</a>
-            <a id="registrar" href="pages/login/registrarse.html">Registrarse</a>
-        </fieldset>
-    </nav>
+    <header>
+        <nav>
+            <fieldset class="navegacion">
+                <h1>Objex</h1>
+
+                <a style="text-decoration: underline;" href="index.html">
+                    <i class="fa-solid fa-house"></i> Inicio
+                </a>
+
+                <a href="pages/publicaciones/publicaciones.html">
+                    <i class="fa-solid fa-list"></i> Publicaciones
+                </a>
+
+                <a class="login" id="iniciar"
+                    href="pages/login/iniciar-sesion.html">
+                    Iniciar Sesión
+                </a>
+
+                <a id="registrar"
+                    href="pages/login/registrarse.html">
+                    Registrarse
+                </a>
+            </fieldset>
+        </nav>
+    </header>
 
     <br>
-    <main>
 
-        <fieldset class="generico">
+    <main>
+        <section class="generico">
             <h2>PLATAFORMA DE OBJETOS PERDIDOS</h2>
-            <p style="font-size: 125%; color: rgb(146, 148, 150);">Ayudamos a la comunidad universitaria a recuperar sus
-                pertenencias
-                de manera rápida, transparente y organizada.
+
+            <p style="font-size: 125%; color: rgb(146, 148, 150);">
+                Ayudamos a la comunidad universitaria a recuperar sus
+                pertenencias de manera rápida, transparente y organizada.
             </p>
+
             <br>
 
-        </fieldset>
+        </section>
+
+        <br>
+
+        <section class="recientes">
+            <section style="text-align: left;" class="recientes">
+                <h3 style="text-align: center;">
+                    Publicaciones Recientes
+                </h3>
+
+                <section class="contenedor">
+                    <article class="card">
+                        <img src="src/img/mochila.jpeg"
+                            alt="Mochila"
+                            width="100%"
+                            height="50%">
+
+                        <section class="texto">
+                            <label class="perdido">Perdido</label>
+                            <label class="fecha">Hace 2 horas</label>
+                        </section>
+
+                        <h4>Mochila Perdida</h4>
+
+                        <p class="descripcion">
+                            Mochila negra con un cuaderno dentro...
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+
+                        <img src="src/img/cargador.jpeg"
+                            alt="Cargador"
+                            width="100%"
+                            height="50%">
+
+                        <section class="texto">
+                            <label class="perdido">Perdido</label>
+                            <label class="fecha">Ayer</label>
+                        </section>
+
+                        <h4>Cargador</h4>
+
+                        <p class="descripcion">
+                            Cargador Tipo C
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+
+                        <img src="src/img/llaves.jpeg"
+                            alt="Llaves"
+                            width="100%"
+                            height="50%">
+
+                        <section class="texto">
+                            <label class="encontrado">Encontrado</label>
+                            <label class="fecha">Hace 1 hora</label>
+                        </section>
+
+                        <h4>Llaves</h4>
+
+                        <p class="descripcion">
+                            Llaves encontradas en el estacionamiento
+                        </p>
+
+                    </article>
+
+                    <article class="card">
+
+                        <img src="src/img/usb.webp"
+                            alt="USB"
+                            width="100%"
+                            height="50%">
+
+                        <section class="texto">
+                            <label class="perdido">Perdido</label>
+                            <label class="fecha">Ayer</label>
+                        </section>
+
+                        <h4>USB</h4>
+
+                        <p class="descripcion">
+                            USB encontrada en el LAB-02
+                        </p>
+
+                    </article>
+
+                </section>
+
+            </section>
+
+        </section>
+
     </main>
 
     <br>
 
-    <section class="recientes">
-        <fieldset style="text-align: left;" class="recientes">
-            <h3 style="text-align: center;">Publicaciones Recientes</h3>
-            <section class="contenedor">
-                <section class="card">
-                    <img src="src/img/mochila.jpeg" alt="Mochila" width="100%" height="50%">
-                    <section class="texto">
-                        <label class="perdido">Perdido</label>
-                        <label class="fecha">Hace 2 horas</label>
-                    </section>
-                    <h4>Mochila Perdida</h4>
-                    <p class="descripcion">Mochila negra con un cuaderno dentro...</p>
-                </section>
-
-                <section class="card">
-                    <img src="src/img/cargador.jpeg" alt="Cargador" width="100%" height="50%">
-                    <section class="texto">
-                        <label class="perdido">Perdido</label>
-                        <label class="fecha">Ayer</label>
-                    </section>
-                    <h4>Cargador</h4>
-                    <p class="descripcion">Cargador Tipo C</p>
-                </section>
-
-                <section class="card">
-                    <img src="src/img/llaves.jpeg" alt="llaves" width="100%" height="50%">
-                    <section class="texto">
-                        <label class="encontrado">Encontrado</label>
-                        <label class="fecha">Hace 1 hora</label>
-                    </section>
-                    <h4>Llaves</h4>
-                    <p class="descripcion">Llaves encontradas en el estacionamiento</p>
-                </section>
-
-                <section class="card">
-                    <img src="src/img/usb.webp" alt="USB" width="100%" height="50%">
-                    <section class="texto">
-                        <label class="perdido">Perdido</label>
-                        <label class="fecha">Ayer</label>
-                    </section>
-                    <h4>USB</h4>
-                    <p class="descripcion">USB encontrada en el LAB-02</p>
-                </section>
-            </section>
-        </fieldset>
-    </section>
-
-    <br>
-
     <footer>
+
         <section class="pie">
+
             <h3>Objex</h3>
+
             <a id="aviso">Aviso de privacidad</a>
             <a>Términos y condiciones</a>
             <a>Mapa del sitio</a>
             <a>Soporte técnico</a>
+
         </section>
 
-        <p style="color: rgb(97, 96, 96);">La herramienta oficial de la comunidad ESPE para la gestión <br>y
-            recuperación de objetos extraviados dentro del campus</p>
-        <p style="color: rgb(97, 96, 96);">2026 Objex - Universidad de las Fuerzas Armadas</p>
+        <p style="color: rgb(97, 96, 96);">
+            La herramienta oficial de la comunidad ESPE para la gestión
+            <br>
+            y recuperación de objetos extraviados dentro del campus
+        </p>
+
+        <p style="color: rgb(97, 96, 96);">
+            2026 Objex - Universidad de las Fuerzas Armadas
+        </p>
+
     </footer>
+
 </body>
 
 </html>
