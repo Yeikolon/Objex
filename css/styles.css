@@ -182,3 +182,7 @@ footer{
     display: flexbox;
 
 }
+
+details{
+    padding: 1%;
+}
