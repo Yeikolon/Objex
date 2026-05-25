@@ -2,51 +2,35 @@
 <html lang="es">
 
 <head>
-
-    <title>Objex</title>
     <meta charset="UTF-8">
-
-    <link href="../../css/styles.css" rel="stylesheet">
-    <link rel="icon" href="../../src/icons/lupa.png" type="image/x-icon">
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <title>Objex</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="icon" href="src/icons/lupa.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-
     <header>
-
-        <nav>
-
+        <nav id="menu">
             <fieldset class="navegacion">
-
                 <h1>Objex</h1>
-
-                <a style="text-decoration: underline;" href="inicio-registrado.html"> <i class="fa-solid fa-house"></i> Inicio </a>
-
-                <a href="../publicaciones/publicaciones-registrado.html"><i class="fa-solid fa-list"></i> Publicaciones</a>
-
-                <a href="../perfil/perfil.html"><i class="fa-solid fa-circle-user"></i> Perfil</a>
-
-                <a href="../login/iniciar-sesion.html"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</a>
-
-                <label class="nombre">Yeiko Velez</label>
-
+                <a style="text-decoration: underline;" href="inicio.html"><i class="fa-solid fa-house"></i> Inicio</a>
+                <a href="../publicaciones/publicaciones.html"><i class="fa-solid fa-list"></i> Publicaciones</a>
+                <a class="login" id="iniciar" href="../../index.html"> Iniciar Sesión</a>
+                <a id="registrar" href="../login/registrarse.html"> Registrarse</a>
             </fieldset>
-
         </nav>
-
     </header>
+
+    <script src="js/script.js">
+        
+    </script>
 
     <br>
 
     <main>
-
         <section class="generico">
-
-            <h2>Plataforma de objetos perdidos</h2>
+            <h2>Plataforma De Objetos Perdidos</h2>
 
             <p style="font-size: 125%; color: rgb(146, 148, 150);">
                 Ayudamos a la comunidad universitaria a recuperar sus
@@ -60,27 +44,18 @@
         <br>
 
         <section class="recientes">
-
             <section style="text-align: left;" class="recientes">
-
                 <h3 style="text-align: center;">
                     Publicaciones Recientes
                 </h3>
 
                 <section class="contenedor">
-
                     <article class="card">
-
-                        <img src="../../src/img/mochila.jpeg"
-                            alt="Mochila"
-                            width="100%"
-                            height="50%">
+                        <img src="../../src/img/mochila.jpeg" alt="Mochila" width="100%" height="50%">
 
                         <section class="texto">
-
                             <label class="perdido">Perdido</label>
                             <label class="fecha">Hace 2 horas</label>
-
                         </section>
 
                         <h4>Mochila Perdida</h4>
@@ -93,16 +68,11 @@
 
                     <article class="card">
 
-                        <img src="../../src/img/cargador.jpeg"
-                            alt="Cargador"
-                            width="100%"
-                            height="50%">
+                        <img src="../../src/img/cargador.jpeg" alt="Cargador" width="100%" height="50%">
 
                         <section class="texto">
-
                             <label class="perdido">Perdido</label>
                             <label class="fecha">Ayer</label>
-
                         </section>
 
                         <h4>Cargador</h4>
@@ -115,16 +85,11 @@
 
                     <article class="card">
 
-                        <img src="../../src/img/llaves.jpeg"
-                            alt="Llaves"
-                            width="100%"
-                            height="50%">
+                        <img src="../../src/img/llaves.jpeg" alt="Llaves" width="100%" height="50%">
 
                         <section class="texto">
-
                             <label class="encontrado">Encontrado</label>
                             <label class="fecha">Hace 1 hora</label>
-
                         </section>
 
                         <h4>Llaves</h4>
@@ -137,16 +102,11 @@
 
                     <article class="card">
 
-                        <img src="../../src/img/usb.webp"
-                            alt="USB"
-                            width="100%"
-                            height="50%">
+                        <img src="../../src/img/usb.webp" alt="USB" width="100%" height="50%">
 
                         <section class="texto">
-
                             <label class="perdido">Perdido</label>
                             <label class="fecha">Ayer</label>
-
                         </section>
 
                         <h4>USB</h4>
@@ -156,13 +116,9 @@
                         </p>
 
                     </article>
-
                 </section>
-
             </section>
-
         </section>
-
     </main>
 
     <br>
@@ -170,12 +126,12 @@
     <footer>
         <section class="pie">
             <h3>Objex</h3>
-            <a id="aviso">Aviso de privacidad</a><label> | </label>
-            <a>Términos y condiciones</a><label> | </label>
+            <a id="aviso">Aviso de privacidad</a> |
+            <a>Términos y condiciones</a> |
             <a href="https://www.google.com/maps/place/Universidad+de+las+Fuerzas+Armadas+-+ESPE+-+Santo+Domingo/@-0.4127086,-79.3189988,16z/data=!4m10!1m2!2m1!1sUNIVERSIDAD+DE+LAS+FUERZAS+ARMADAS+ESPE!3m6!1s0x91d53237044f39bb:0x24ed753bfe34c98b!8m2!3d-0.4127086!4d-79.3094716!15sCidVTklWRVJTSURBRCBERSBMQVMgRlVFUlpBUyBBUk1BREFTIEVTUEUiA4gBAVopIid1bml2ZXJzaWRhZCBkZSBsYXMgZnVlcnphcyBhcm1hZGFzIGVzcGWSARFwdWJsaWNfdW5pdmVyc2l0eZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSQmJHTm1kRVZSRUFF4AEA-gEECAAQQw!16s%2Fg%2F11f11shpmz?entry=ttu&g_ep=EgoyMDI2MDUxNy4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"> <i class="fa-solid fa-location-dot"> </i> Mapa del sitio</a><label> | </label>
-            <a>Soporte técnico</a><label> | </label>
-            <a href="../extras/preguntas-frecuentes.html">Preguntas frecuentes</a><label> | </label>
+                target="_blank"> <i class="fa-solid fa-location-dot"> </i> Mapa del sitio</a> |
+            <a>Soporte técnico</a> |
+            <a href="../extras/preguntas-frecuentes.html">Preguntas frecuentes</a>
         </section>
 
         <p style="color: rgb(97, 96, 96);">La herramienta oficial de la comunidad ESPE para la gestión<br>y recuperación
@@ -183,7 +139,6 @@
 
         <p style="color: rgb(97, 96, 96);">2026 Objex - Universidad de las Fuerzas Armadas</p>
     </footer>
-
 </body>
 
 </html>
